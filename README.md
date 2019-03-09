@@ -50,8 +50,12 @@ git submodule update --init --recursive
 
 For information on various completer flags, look at the [YCM git repo.](https://github.com/Valloric/YouCompleteMe)
 
-### My vim editor settings ###
+### Adding my vim editor settings ###
 
 ```
+git clone https://github.com/lukebarker3/.vim_runtime.git lukebarker3_vim_runtime
+cd lukebarker3_vim_runtime
 cat ./my_configs.vim > ~/.vim_runtime/my_configs.vim
 ```
+
+The above commands will copy and paste my personal config into the .vim_runtime folder, updating the settings upon restart.
