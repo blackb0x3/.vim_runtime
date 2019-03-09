@@ -44,6 +44,7 @@ Now install the damn thing...
 ```
 git clone https://github.com/Valloric/YouCompleteMe.git
 cd ~/.vim_runtime/my_plugins/YouCompleteMe
+git submodule update --init --recursive
 ./install.py --all
 ```
 
