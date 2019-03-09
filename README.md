@@ -30,10 +30,10 @@ git clone https://github.com/w0rp/ale.git
 First install the libraries to compile YCM
 
 ```
-sudo apt-get install build-essential cmake
+sudo apt-get install build-essential cmake python-dev python3-dev
 ```
 
-For Ubuntu 14.04 or less:
+For Ubuntu 14.04 or less, replace **cmake** with **cmake3**:
 
 ```
 sudo apt-get install build-essential cmake3 python-dev python3-dev
